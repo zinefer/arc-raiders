@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arc Raiders Tools</title>
+    
+    <meta name="description" content="Interactive web tools for Arc Raiders players - item search, recycling guide, and quest tree visualizer." />
+    <meta name="keywords" content="ARC Raiders, tools, items, quests, game guide" />
+    <meta name="robots" content="index, follow" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Arc Raiders Tools" />
+    <meta property="og:description" content="Interactive web tools for Arc Raiders players" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Arc Raiders Tools" />
+    
+    <meta name="theme-color" content="#1e3c72" />
+    
+    <link rel="stylesheet" href="styles/items.css" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      }
+      
+      .container {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 12px;
+        padding: 40px;
+        max-width: 600px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      }
+      
+      h1 {
+        color: #1e3c72;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 2.5em;
+      }
+      
+      .subtitle {
+        color: #666;
+        margin-bottom: 30px;
+        font-size: 1.1em;
+      }
+      
+      .tools {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      
+      .tool-link {
+        display: block;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+      
+      .tool-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      }
+      
+      .tool-link h2 {
+        margin: 0 0 8px 0;
+        font-size: 1.5em;
+      }
+      
+      .tool-link p {
+        margin: 0;
+        opacity: 0.9;
+        font-size: 0.95em;
+      }
+      
+      .footer {
+        margin-top: 30px;
+        text-align: center;
+        color: #666;
+        font-size: 0.9em;
+      }
+      
+      .footer a {
+        color: #667eea;
+        text-decoration: none;
+      }
+      
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎮 Arc Raiders Tools</h1>
+      <p class="subtitle">Interactive tools for Arc Raiders players</p>
+      
+      <div class="tools">
+        <a href="items.html" class="tool-link">
+          <h2>🔍 Item Search & Recycling Guide</h2>
+          <p>Find out which items to keep or recycle. Search for quest items, crafting materials, and workshop upgrades.</p>
+        </a>
+        
+        <a href="quests.html" class="tool-link">
+          <h2>🗺️ Quest Tree Visualizer</h2>
+          <p>Interactive flowchart showing quest dependencies and progression paths.</p>
+        </a>
+      </div>
+      
+      <div class="footer">
+        Found an issue? <a href="https://github.com/zinefer/arc-raiders/issues" target="_blank">Report it on GitHub</a>
+      </div>
+    </div>
+  </body>
+</html>

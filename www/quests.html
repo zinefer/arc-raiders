@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARC Raiders Quest Tree</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Visualize the complete quest tree in ARC Raiders. Track your progress and see quest dependencies with an interactive flowchart." />
+    <meta name="keywords" content="ARC Raiders, quests, quest tree, quest map, game guide, quest tracker" />
+    <meta name="author" content="ARC Raiders Community" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ARC Raiders Quest Tree Visualizer" />
+    <meta property="og:description" content="Visualize the complete quest tree in ARC Raiders. Track your progress and see quest dependencies." />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="ARC Raiders Quest Tree Visualizer" />
+    <meta name="twitter:description" content="Visualize the complete quest tree in ARC Raiders with an interactive flowchart." />
+    
+    <meta name="theme-color" content="#1e3c72" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8X8ZWR5KJ6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8X8ZWR5KJ6");
+    </script>
+    <link rel="stylesheet" href="styles/items.css" />
+    <style>
+      body {
+        overflow-y: hidden;
+      }
+
+      .quest-map-container {
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 70px);
+        position: relative;
+      }
+
+      .chart-wrapper {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+        background: var(--container-bg);
+        cursor: grab;
+        touch-action: none; /* Prevent browser default touch behaviors */
+        -webkit-user-select: none; /* Prevent text selection on touch */
+        user-select: none;
+      }
+
+      .chart-wrapper.panning {
+        cursor: grabbing;
+      }
+
+      .mermaid-container {
+        display: inline-block;
+        min-width: 100%;
+        min-height: 100%;
+        padding: 20px;
+        transform-origin: 0 0;
+        transition: transform 0.1s ease-out;
+      }
+
+      .legend {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: var(--container-bg);
+        border: 2px solid var(--border-color);
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 4px 12px var(--shadow);
+        z-index: 10;
+      }
+
+      .legend-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: var(--text-primary);
+      }
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 8px;
+        font-size: 0.9em;
+      }
+
+      .legend-box {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        border: 2px solid #333;
+      }
+
+      .legend-box.shani {
+        background: #ff6b6b;
+      }
+
+      .legend-box.tianwen {
+        background: #4ecdc4;
+      }
+
+      .legend-box.lance {
+        background: #45b7d1;
+      }
+
+      .legend-box.celeste {
+        background: #f9ca24;
+      }
+
+      .legend-box.apollo {
+        background: #6c5ce7;
+      }
+
+      .legend-separator {
+        height: 1px;
+        background: var(--border-color);
+        margin: 10px 0;
+      }
+
+      .legend-outline {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        background: transparent;
+      }
+
+      .legend-outline.completed {
+        border: 3px solid #10b981;
+      }
+
+      .legend-outline.active {
+        border: 3px solid #f59e0b;
+      }
+
+      @media (max-width: 768px) {
+        .legend {
+          top: auto;
+          bottom: 20px;
+          right: 10px;
+          font-size: 0.85em;
+        }
+      }
+
+      .node.completed rect {
+        filter: grayscale(1);
+      }
+
+      .node.active rect {
+        filter: drop-shadow(0 0 8px #f59e0b);
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+
+      /* Mermaid theme customization */
+      .mermaid .node rect,
+      .mermaid .node circle,
+      .mermaid .node polygon {
+        stroke-width: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="quests.js"></script>
+  </body>
+</html>

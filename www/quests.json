@@ -1,0 +1,728 @@
+{
+  "Shani": {
+    "quests": [
+      {
+        "quest": "Picking Up The Pieces",
+        "objective": {
+          "text": "Visit any area on your map with a loot category icon\nLoot 3 containers",
+          "items": []
+        },
+        "reward": "1x Ferro Iii\n80x Medium Ammo",
+        "nextQuests": [
+          "Clearer Skies",
+          "Trash Into Treasure"
+        ]
+      },
+      {
+        "quest": "Clearer Skies",
+        "objective": {
+          "text": "Destroy 3 ARC enemies\nGet 3 ARC Alloy for Shani",
+          "items": {
+            "ARC Alloy": 3
+          }
+        },
+        "reward": "1x Backpack Black Hiker Color\n3x Sterilized Bandage\n1x Light Shield",
+        "nextQuests": [
+          "Off The Radar"
+        ]
+      },
+      {
+        "quest": "Trash Into Treasure",
+        "objective": {
+          "text": "Obtain 6 Wires\nObtain 1 Battery",
+          "items": {
+            "Wires": 6,
+            "Battery": 1
+          }
+        },
+        "reward": "1x Tactical Mk1\n3x Adrenaline Shot",
+        "nextQuests": [
+          "Off The Radar"
+        ]
+      },
+      {
+        "quest": "Off The Radar",
+        "objective": {
+          "text": "Visit a Field Depot\nRepair the antenna on the roof of the Field Depot",
+          "items": []
+        },
+        "reward": "2x Remote Raider Flare\n2x Defibrillator",
+        "nextQuests": [
+          "A Bad Feeling"
+        ]
+      },
+      {
+        "quest": "Hatch Repairs",
+        "objective": {
+          "text": "Repair the leaking hydraulic pipes near a Raider Hatch",
+          "items": []
+        },
+        "reward": "1x Raider Hatch Key\n1x Binoculars"
+      },
+      {
+        "quest": "Down To Earth",
+        "objective": {
+          "text": "Visit a Field Depot\nDeliver a Field Crate to Supply Station\nCollect the reward",
+          "items": []
+        },
+        "reward": "1x Combat Mk1\n1x Medium Shield",
+        "nextQuests": [
+          "The Trifecta"
+        ]
+      },
+      {
+        "quest": "The Trifecta",
+        "objective": {
+          "text": "Destroy 2 Wasps\nDestroy 2 Hornets\nDestroy 2 Snitches\nGet 2 Snitch Scanner for Shani\nGet 2 Wasp Driver for Shani\nGet 2 Hornet Driver for Shani",
+          "items": {
+            "Snitch Scanner": 2,
+            "Wasp Driver": 2,
+            "Hornet Driver": 2
+          }
+        },
+        "reward": "1x Raider Hatch Key\n2x Defibrillator\n1x Dam Control Tower Key",
+        "nextQuests": [
+          "Dormant Barons"
+        ]
+      },
+      {
+        "quest": "Dormant Barons",
+        "objective": {
+          "text": "Loot a Baron husk",
+          "items": []
+        },
+        "reward": "3x Door Blocker\n3x Lil Smoke Grenade",
+        "nextQuests": [
+          "Mixed Signals",
+          "What We Left Behind"
+        ]
+      },
+      {
+        "quest": "Our Presence Up There",
+        "objective": {
+          "text": "Visit the Pattern House in The Dam\nFind and interact with the Power Switch\nComplete the antenna installation on the roof",
+          "items": []
+        },
+        "reward": "1x Buried City Town Hall Key\n1x Raider Hatch Key\n3x Jolt Mine",
+        "nextQuests": [
+          "Lost in Transmission"
+        ]
+      },
+      {
+        "quest": "Lost in Transmission",
+        "objective": {
+          "text": "Visit Control Tower A6\nReach the top of Control Tower A6\nEstablish a connection from the terminal",
+          "items": []
+        },
+        "reward": "1x Snap Hook",
+        "nextQuests": [
+          "Communication Hideout"
+        ]
+      },
+      {
+        "quest": "Communication Hideout",
+        "objective": {
+          "text": "Reach the Red Tower in Old Town\nFind missing battery cell\nInstall the battery cell in the Generator\nEnable the power on the Generator\nBoot the antenna terminal near the Red Tower",
+          "items": []
+        },
+        "reward": "1x Crimson Racer Aviator\n1x Anvil Iii\n40x Heavy Ammo",
+        "map": "buried_city"
+      },
+      {
+        "quest": "Out of the Shadows",
+        "objective": {
+          "text": "Destroy a Rocketeer\nObtain a Rocketeer Driver",
+          "items": {
+            "Rocketeer Driver": 1
+          }
+        },
+        "reward": "3x Surge Shield Recharger\n2x Wolfpack"
+      },
+      {
+        "quest": "A Lay of the Land",
+        "objective": {
+          "text": "Reach the Jiangsu Warehouse\nFind the shipping notes in the foreman's office\nLocate the scanners on the upper floor of Control Tower A6\nDeliver 1 LiDAR Scanners to Shani",
+          "items": []
+        },
+        "reward": "1x Dam Testing Annex Key\n3x Zipline\n2x Smoke Grenade",
+        "nextQuests": [
+          "Eyes in the Sky"
+        ]
+      },
+      {
+        "quest": "Eyes in the Sky",
+        "objective": {
+          "text": "On Dam Battlegrounds, install a LiDAR Scanner at the top of the Control Tower\nOn Spaceport, install a LiDAR Scanner at the Communications Tower\nOn Buried City, install a LiDAR Scanner on top of the Galleria sign",
+          "items": []
+        },
+        "reward": "3x Tagging Grenade\n1x Vita Spray\n5x Yellow Light Stick",
+        "nextQuests": [
+          "A Balanced Harvest",
+          "After Rain Comes"
+        ]
+      },
+      {
+        "quest": "Into the Fray",
+        "objective": {
+          "text": "Destroy a Leaper\nObtain a Leaper Pulse Unit",
+          "items": {
+            "Leaper Pulse Unit": 1
+          }
+        },
+        "reward": "1x Radio Renegade\n1x Burgerboy\n1x Vulcano Iii\n40x Shotgun Ammo"
+      },
+      {
+        "quest": "Armored Transports",
+        "objective": {
+          "text": "Reach the Checkpoint\nSearch the Guard huts for a Armored Patrol Key Card\nReach the Traffic Tunnel near the Blue Gate Checkpoint\nFind and unlock the rear door of an armored patrol car",
+          "items": []
+        },
+        "reward": "1x Blue Yellow Aviator\n3x Smoke Grenade\n3x Defibrillator"
+      },
+      {
+        "quest": "A First Foothold",
+        "objective": {
+          "text": "Stabilize the observation deck near the Ridgeline\nEnable the comms terminal near the Olive Grove\nRotate the satellite dishes on the church roof, north of the Data Vault\nNail down the roof plates on the Raider structure near Trapper's Glade",
+          "items": []
+        },
+        "reward": "3x Shrapnel Grenade\n3x Snap Blast Grenade\n3x Heavy Fuze Grenade",
+        "nextQuests": [
+          "Reduced to Rubble"
+        ]
+      },
+      {
+        "quest": "Reduced to Rubble",
+        "objective": {
+          "text": "Take a photo of the Collapsed Highway\nGo to the Broken Earth\nFollow the trail of destruction through the Broken Earth\nInvestigate the unknown ARC machines",
+          "items": []
+        },
+        "reward": "1x Zipline\n3x Barricade Kit\n3x Door Blocker",
+        "nextQuests": [
+          "With a Trace"
+        ]
+      },
+      {
+        "quest": "With a Trace",
+        "objective": {
+          "text": "Reach the Barren Clearing\nFind signs of who brought down the ARC machines\nInspect the Adorned Wreckage\nInspect the communications device",
+          "items": []
+        },
+        "reward": "1x Looting Mk2\n1x Medium Shield"
+      }
+    ]
+  },
+  "Celeste": {
+    "quests": [
+      {
+        "quest": "A Bad Feeling",
+        "objective": {
+          "text": "Find and search any ARC Probe or ARC Courier",
+          "items": []
+        },
+        "reward": "10x Metal Parts\n5x Steel Spring\n5x Duct Tape",
+        "nextQuests": [
+          "Hatch Repairs",
+          "Down To Earth",
+          "The Right Tool",
+          "Safe Passage"
+        ]
+      },
+      {
+        "quest": "Greasing Her Palms",
+        "objective": {
+          "text": "On Dam Battlegrounds, visit the Locked Room in the Water Treatment Control building\nOn Spaceport, scope out the rocket thrusters outside the Rocket Assembly\nOn Buried City, visit the barricaded area on floor 6 of the Space Travel Building",
+          "items": []
+        },
+        "reward": "1x Lure Grenade Blueprint\n3x Speaker Component\n3x Electrical Components",
+        "nextQuests": [
+          "Dormant Barons",
+          "Doctor's Orders"
+        ]
+      },
+      {
+        "quest": "Straight Record",
+        "objective": {
+          "text": "Reach Victory Ridge\nFind the old EMP trap\nDisable the first power switch\nDisable the second power switch\nDisable the third power switch\nShut down the EMP trap",
+          "items": []
+        },
+        "reward": "5x Medium Gun Parts\n3x Advanced Mechanical Components",
+        "nextQuests": [
+          "Keeping the Memory"
+        ]
+      },
+      {
+        "quest": "Keeping the Memory",
+        "objective": {
+          "text": "Reach the wreckage in the Formicai Hills\nSearch for the missing helmet\nReturn the helmet to the memorial",
+          "items": []
+        },
+        "reward": "5x Simple Gun Parts\n5x Duct Tape\n5x Magnet",
+        "nextQuests": [
+          "Echoes of Victory Ridge"
+        ]
+      },
+      {
+        "quest": "Echoes of Victory Ridge",
+        "objective": {
+          "text": "Reach Victory Ridge\nRetrieve the battle plans from the hideout under the broken highway\nDeliver Major Alva's Patch to Celeste",
+          "items": []
+        },
+        "reward": "6x Crude Explosives\n2x Processor\n1x Music Box",
+        "nextQuests": [
+          "Unexpected Initiative"
+        ]
+      },
+      {
+        "quest": "A Symbol of Unification",
+        "objective": {
+          "text": "Reach the Formicai Outpost in Dam Battlegrounds\nLocate the flag at the Formicai Outpost\nHoist the flag on the small platform overlooking the Red Lake",
+          "items": []
+        },
+        "reward": "1x Aviator\n3x Mod Components\n5x Duct Tape",
+        "nextQuests": [
+          "Celeste's Journals",
+          "The Major's Footlocker",
+          "Out of the Shadows"
+        ]
+      },
+      {
+        "quest": "Celeste's Journals",
+        "objective": {
+          "text": "Retrieve Celeste's Journals from the South Swamp Outpost\nRetrieve Celeste's Journals from the northern outpost overlooking the Red Lakes\nDeliver 2 Journals to Celeste",
+          "items": {
+            "Celeste Journal": 2
+          }
+        },
+        "reward": "1x Magnetic Accelerator\n3x Heavy Gun Parts\n1x Exodus Modules",
+        "nextQuests": [
+          "Back on Top"
+        ]
+      },
+      {
+        "quest": "After Rain Comes",
+        "objective": {
+          "text": "Find the flooded solar panels nearby the Grandioso Apartments\nRepair the solar panels using 5 Wires and 2 Batteries",
+          "items": {
+            "Wires": 5,
+            "Battery": 2
+          }
+        },
+        "reward": "5x Blue Light Stick\n3x Antiseptic\n5x Durable Cloth"
+      },
+      {
+        "quest": "A Balanced Harvest",
+        "objective": {
+          "text": "Go to the Research & Administration building\nLocate Lab 1 on the upper floor above the reception\nSearch for any traces of the agricultural project",
+          "items": []
+        },
+        "reward": "3x Advanced Mechanical Components\n3x Medium Gun Parts\n10x Steel Spring",
+        "nextQuests": [
+          "Untended Garden"
+        ]
+      },
+      {
+        "quest": "Untended Garden",
+        "objective": {
+          "text": "Go to the Hydroponic Dome Complex\nAccess the data archive in one of the domes\nUpload the data to the com1ter terminal in any Field Depot",
+          "items": []
+        },
+        "reward": "3x Advanced Mechanical Components\n3x Heavy Gun Parts\n5x Canister",
+        "nextQuests": [
+          "The Root of the Matter"
+        ]
+      },
+      {
+        "quest": "The Root of the Matter",
+        "objective": {
+          "text": "Go to the Research Building\nSearch for the seed vault in the \"room with a great view\"\nDeliver the Experimental Seed Sample to Celeste",
+          "items": []
+        },
+        "reward": "1x Succulent\n1000x Coins",
+        "nextQuests": [
+          "Water Troubles"
+        ]
+      },
+      {
+        "quest": "Water Troubles",
+        "objective": {
+          "text": "Locate the Flood Access Tunnel under the Red Lake Balcony\nFind the intake to the District's Water Supply\nSample the water",
+          "items": []
+        },
+        "reward": "3x Mechanical Components\n3x Simple Gun Parts\n3x Steel Spring",
+        "nextQuests": [
+          "Source of the Contamination"
+        ]
+      },
+      {
+        "quest": "Source of the Contamination",
+        "objective": {
+          "text": "Reach the Water Treatment Building in The Dam\nSearch for the Flood Spill Intake near the Swamp\nInvestigate any suspicious objects",
+          "items": []
+        },
+        "reward": "5x Steel Spring\n5x Duct Tape\n1x Mod Components",
+        "nextQuests": [
+          "Switching the Supply"
+        ]
+      },
+      {
+        "quest": "Switching the Supply",
+        "objective": {
+          "text": "Find the tunnels under the Spaceport\nFind and turn the valve in the tunnels under Spaceport",
+          "items": []
+        },
+        "reward": "1x Blue Radio Renegade Color\n1x Spaceport Trench Tower Key\n3x Synthesized Fuel",
+        "nextQuests": [
+          "A Warm Place to Rest"
+        ]
+      },
+      {
+        "quest": "Power Out",
+        "objective": {
+          "text": "Find the Electrical Substation south of the Spaceport, next to the Checkpoint\nFind any sign of the missing engineer\nCarry the fuse/battery back to the Electrical Substation\nEnable the power switch on the Fuse Box",
+          "items": []
+        },
+        "reward": "1x Bag Radio Renegade\n5x Wires\n5x Explosive Compound\n5x Oil",
+        "nextQuests": [
+          "Flickering Threat"
+        ]
+      },
+      {
+        "quest": "Flickering Threat",
+        "objective": {
+          "text": "Find the Generator Room\nRepair the Generator\nFind the Ventilation Shaft\nEnable the power via the power switch underneath the stairs",
+          "items": []
+        },
+        "reward": "1x Helmet Radio Renegade\n5x Medium Gun Parts\n3x Advanced Mechanical Components",
+        "nextQuests": [
+          "Bees!"
+        ]
+      },
+      {
+        "quest": "Bees!",
+        "objective": {
+          "text": "Reach the Olive Grove in Blue Gate\nSearch for bee hives around the Olive Grove",
+          "items": []
+        },
+        "reward": "1x Advanced Electrical Components\n3x Sensors",
+        "nextQuests": [
+          "Espresso"
+        ]
+      },
+      {
+        "quest": "Tribute to Toledo",
+        "objective": {
+          "text": "Get a Power Rod for Celeste",
+          "items": {
+            "Power Rod": 1
+          }
+        },
+        "reward": "5x Magnet\n2x Advanced Mechanical Components\n3x Synthesized Fuel",
+        "nextQuests": [
+          "Digging Up Dirt"
+        ]
+      },
+      {
+        "quest": "Digging Up Dirt",
+        "objective": {
+          "text": "Locate the Santa Maria Houses in Old Town\nLocate the Dead Drop inside the courtyard",
+          "items": []
+        },
+        "reward": "2x Advanced Electrical Components\n4x Speaker Component",
+        "nextQuests": [
+          "Turnabout",
+          "Building a Library"
+        ]
+      },
+      {
+        "quest": "Turnabout",
+        "objective": {
+          "text": "Go to the North Trench Tower\nLocate and upload the blackmail files to Celeste",
+          "items": []
+        },
+        "reward": "2x Heavy Gun Parts\n2x Medium Gun Parts"
+      }
+    ]
+  },
+  "Tian Wen": {
+    "quests": [
+      {
+        "quest": "The Right Tool",
+        "objective": {
+          "text": "Destroy a Fireball\nDestroy a Hornet\nDestroy a Turret",
+          "items": []
+        },
+        "reward": "1x Stitcher Ii\n1x Extended Light Mag I\n1x Cheer Emote",
+        "nextQuests": [
+          "A Better Use"
+        ]
+      },
+      {
+        "quest": "A Better Use",
+        "objective": {
+          "text": "Request in a Supply Drop from a Call Station\nLoot a Supply Drop",
+          "items": []
+        },
+        "reward": "1x Extended Light Mag I\n1x Muzzle Brake Ii\n1x Stable Stock I",
+        "nextQuests": [
+          "Greasing Her Palms"
+        ]
+      },
+      {
+        "quest": "Mixed Signals",
+        "objective": {
+          "text": "Destroy an ARC Surveyor\nObtain 1 Surveyor Vault",
+          "items": {
+            "Surveyor Vault": 1
+          }
+        },
+        "reward": "1x Photoelectric Cloak\n1x Raider Hatch Key"
+      },
+      {
+        "quest": "What We Left Behind",
+        "objective": {
+          "text": "On Buried City, search 2 containers in the Raider Camp beneath the Parking Garage\nOn Dam Battlegrounds, search for anything significant in the South Swamp Outpost\nOn Spaceport, search for anything significant in Bilguun's Hideout, next to the Container Storage",
+          "items": []
+        },
+        "reward": "1x Muzzle Brake Ii\n1x Vertical Grip Ii\n1x Stable Stock Ii",
+        "nextQuests": [
+          "Broken Monument"
+        ]
+      },
+      {
+        "quest": "Broken Monument",
+        "objective": {
+          "text": "Reach the hallowed grounds by the Scrap Yard\nSearch for a compass near the broken-down vehicles\nSearch for the video tape near the cylindrical containers\nSearch for the old field rations in the Raider camp\nDeliver the First Wave Tape to Tian Wen\nDeliver First Wave Compass to Tian Wen\nDeliver First Wave Rations to Tian Wen",
+          "items": {
+            "First Wave Tape": 1,
+            "First Wave Compass": 1,
+            "First Wave Rations": 1
+          }
+        },
+        "reward": "1x Arpeggio I\n1x Compensator Ii\n80x Medium Ammo",
+        "nextQuests": [
+          "Marked for Death",
+          "Straight Record"
+        ]
+      },
+      {
+        "quest": "Marked for Death",
+        "objective": {
+          "text": "Reach the Su Durante Warehouses in the Outskirts in Buried City\nSearch for Tian Wen's cache near the Warehouses\nFollow the clues",
+          "items": []
+        },
+        "reward": "1x Shotgun Choke Ii\n1x Angled Grip Ii",
+        "nextQuests": [
+          "Market Correction"
+        ]
+      },
+      {
+        "quest": "Market Correction",
+        "objective": {
+          "text": "Locate the cache near Marano Station\nSabotage the cache",
+          "items": []
+        },
+        "reward": "1x Silencer Ii\n1x Extended Light Mag I\n1x Compensator I",
+        "nextQuests": [
+          "Eyes on the Prize"
+        ]
+      },
+      {
+        "quest": "Eyes on the Prize",
+        "objective": {
+          "text": "Find the secluded roof terrace south-west of the Southern Station, look for blue tarps\nRewire the solar panel using 3 Wires",
+          "items": {
+            "Wire": 3
+          }
+        },
+        "reward": "1x Extended Shotgun Mag Ii\n1x Extended Medium Mag Ii",
+        "nextQuests": [
+          "Industrial Espionage"
+        ]
+      },
+      {
+        "quest": "Industrial Espionage",
+        "objective": {
+          "text": "Find Tian Wen's weapon cache near the Gas Station in the Outskirts\nDeliver the Burletta to the rival weapon cache\nPlant a bug on the weapon cache",
+          "items": []
+        },
+        "reward": "1x Burletta Blueprint\n3x Mechanical Components\n3x Simple Gun Parts"
+      },
+      {
+        "quest": "Unexpected Initiative",
+        "objective": {
+          "text": "Reach the Grandioso Apartments in Buried City\nSearch for Fertilizer on the rooftop of the Grandioso Apartments\nReach Piazza Roma in Buried City\nSearch for a Water Pump in the broken rooftop gardens at Piazza Roma\nDeliver a Water Pump to Tian Wen\nDeliver Fertilizer to Tian Wen",
+          "items": {
+            "Fertilizer": 1
+          }
+        },
+        "reward": "1x Il Toro I\n40x Shotgun Ammo\n1x Shotgun Choke Ii",
+        "nextQuests": [
+          "A Symbol of Unification"
+        ]
+      },
+      {
+        "quest": "Back on Top",
+        "objective": {
+          "text": "On Dam Battlegrounds, mark the Pattern House\nOn The Blue Gate, mark the white lookout tower south of the Warehouse Complex\nOn Spaceport, mark the South Trench Tower\nOn Buried City, mark the building with the mural in the Buried Properties",
+          "items": []
+        },
+        "reward": "1x Renegade I\n1x Stable Stock Iii\n80x Medium Ammo",
+        "nextQuests": [
+          "Our Presence Up There"
+        ]
+      },
+      {
+        "quest": "The Major's Footlocker",
+        "objective": {
+          "text": "Search for Major Aiva's mementos in the apartments northwest of The Dam\nDeliver Major Aiva's Mementos to Tian Wen",
+          "items": {
+            "Major Aiva Mementos": 1
+          }
+        },
+        "reward": "1x Launcher Ammo Blueprint"
+      }
+    ]
+  },
+  "Apollo": {
+    "quests": [
+      {
+        "quest": "Safe Passage",
+        "objective": {
+          "text": "Destroy 2 ARC enemies using any explosive grenade",
+          "items": []
+        },
+        "reward": "5x Lil Smoke Grenade\n3x Barricade Kit\n3x Shrapnel Grenade",
+        "nextQuests": [
+          "What Goes Around"
+        ]
+      },
+      {
+        "quest": "What Goes Around",
+        "objective": {
+          "text": "Destroy any ARC enemy using a Fireball Burner",
+          "items": []
+        },
+        "reward": "1x Cans Cosmetic\n3x Blaze Grenade\n2x Noisemaker",
+        "nextQuests": [
+          "Sparks Fly"
+        ]
+      },
+      {
+        "quest": "Sparks Fly",
+        "objective": {
+          "text": "Destroy a Hornet with a Trigger 'Nade or Snap Blast",
+          "items": []
+        },
+        "reward": "1x Trigger Nade Blueprint\n4x Crude Explosives\n2x Processor"
+      },
+      {
+        "quest": "A Warm Place to Rest",
+        "objective": {
+          "text": "Locate the Abandoned Highway Camp\nSearch for any signs of survivors\nFollow the red markers\nInspect the grave",
+          "items": []
+        },
+        "reward": "1x Goggles Radio Renegade\n3x Noisemaker\n5x Blue Light Stick\n1x Rosary",
+        "nextQuests": [
+          "Prescriptions of the Past"
+        ]
+      },
+      {
+        "quest": "Espresso",
+        "objective": {
+          "text": "Find an espresso machine to salvage for spare parts\nGet the Espresso Machine Parts for Apollo",
+          "items": []
+        },
+        "reward": "1x Coffee Pot\n3x Adrenaline Shot",
+        "nextQuests": [
+          "Life of a Pharmacist"
+        ]
+      },
+      {
+        "quest": "Building a Library",
+        "objective": {
+          "text": "Locate the Library in the City Center\nFind 1 romance book\nFind 1 detective book\nFind 1 adventure book\nDeliver 3 books to Apollo",
+          "items": []
+        },
+        "reward": "1x Explosive Mine\n1x Jolt Mine\n1x Heavy Fuze Grenade",
+        "nextQuests": [
+          "A New Type of Plant"
+        ]
+      }
+    ]
+  },
+  "Lance": {
+    "quests": [
+      {
+        "quest": "Doctor's Orders",
+        "objective": {
+          "text": "Obtain 2 Antiseptic\nObtain 1 Syringe\nObtain 1 Durable Cloth\nObtain 1 Great Mullein",
+          "items": {
+            "Antiseptic": 2,
+            "Syringe": 1,
+            "Durable Cloth": 1,
+            "Great Mullein": 1
+          }
+        },
+        "reward": "3x Adrenaline Shot\n3x Sterilized Bandage\n1x Surge Shield Recharger",
+        "nextQuests": [
+          "Medical Merchandise"
+        ]
+      },
+      {
+        "quest": "Medical Merchandise",
+        "objective": {
+          "text": "On Spaceport, search 2 containers in the Departure Building's exam rooms\nSearch 3 containers in the Hospital in Buried City\nOn Dam Battlegrounds, search 2 containers in the Research & Administration building's medical room",
+          "items": []
+        },
+        "reward": "1x Banana\n3x Defibrillator\n2x Vita Shot",
+        "nextQuests": [
+          "A Reveal in Ruins"
+        ]
+      },
+      {
+        "quest": "A Reveal in Ruins",
+        "objective": {
+          "text": "Search for an ESR Analyzer inside any pharmacy in Buried City\nDeliver the ESR Analyzer to Lance",
+          "items": []
+        },
+        "reward": "1x Tactical Mk3 Healing\n1x Surge Shield Recharger",
+        "nextQuests": [
+          "A Lay of the Land"
+        ]
+      },
+      {
+        "quest": "Prescriptions of the Past",
+        "objective": {
+          "text": "Visit the Departure Building in Spaceport\nFind the Medical Exam Room inside the Departure Building\nSearch for the records",
+          "items": []
+        },
+        "reward": "1x Heavy Shield\n1x Tactical Mk3 Healing",
+        "nextQuests": [
+          "Power Out"
+        ]
+      },
+      {
+        "quest": "Life of a Pharmacist",
+        "objective": {
+          "text": "Find the Arbusto Farmacia by the collapsed highway\nDocument the pharmacist's hobbies\nDocument the pharmacist's family\nDocument the pharmacist's taste\nDocument the pharmacist's skills",
+          "items": []
+        },
+        "reward": "1x Defibrillator\n1x Surge Shield Recharger\n3x Sterilized Bandage",
+        "nextQuests": [
+          "Tribute to Toledo"
+        ]
+      },
+      {
+        "quest": "A New Type of Plant",
+        "objective": {
+          "text": "Search for the new plant near the Baron Husk in the Old Battleground\nDeliver the Possibly Toxic Plant to Lance",
+          "items": []
+        },
+        "reward": "1x Vita Shot\n5x Antiseptic",
+        "nextQuests": [
+          "Armored Transports"
+        ]
+      }
+    ]
+  }
+}

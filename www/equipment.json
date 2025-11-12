@@ -1,0 +1,697 @@
+[
+  {
+    "item": "Free Loadout Augment",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Looting Mk. 1",
+    "components": {
+      "Rubber Parts": 6,
+      "Plastic Parts": 6
+    },
+    "repairs": [
+      {
+        "components": {
+          "Plastic Parts": 3,
+          "Rubber Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Combat Mk. 1",
+    "components": {
+      "Rubber Parts": 6,
+      "Plastic Parts": 6
+    },
+    "repairs": [
+      {
+        "components": {
+          "Plastic Parts": 3,
+          "Rubber Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Tactical Mk. 1",
+    "components": {
+      "Rubber Parts": 6,
+      "Plastic Parts": 6
+    },
+    "repairs": [
+      {
+        "components": {
+          "Plastic Parts": 3,
+          "Rubber Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Looting Mk. 2",
+    "components": {
+      "Electrical Components": 2,
+      "Magnet": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Electrical Components": 1,
+          "Magnet": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Combat Mk. 2",
+    "components": {
+      "Electrical Components": 2,
+      "Magnet": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Electrical Components": 1,
+          "Magnet": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Tactical Mk. 2",
+    "components": {
+      "Electrical Components": 2,
+      "Magnet": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Electrical Components": 1,
+          "Magnet": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Looting Mk. 3 (Cautious)",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Processor": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Processor": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Looting Mk. 3 (Survivor)",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Processor": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Processor": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Combat Mk. 3 (Aggressive)",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Processor": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Processor": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Combat Mk. 3 (Flanking)",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Processor": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Processor": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Tactical Mk. 3 (Defensive)",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Processor": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Processor": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Tactical Mk. 3 (Healing)",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Processor": 3
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Processor": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Light Shield",
+    "components": {
+      "ARC Alloy": 2,
+      "Plastic Parts": 4
+    },
+    "repairs": [
+      {
+        "components": {
+          "Plastic Parts": 4
+        }
+      }
+    ]
+  },
+  {
+    "item": "Medium Shield",
+    "components": {
+      "Battery": 4,
+      "ARC Circuitry": 1
+    },
+    "repairs": [
+      {
+        "components": {
+          "ARC Circuitry": 1,
+          "Battery": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Heavy Shield",
+    "components": {
+      "Power Rod": 1,
+      "Voltage Converter": 2
+    },
+    "repairs": [
+      {
+        "components": {
+          "ARC Circuitry": 2,
+          "Voltage Converter": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Agave",
+    "components": {
+      "Empty Wine Bottle": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Bandage",
+    "components": {
+      "Fabric": 5
+    },
+    "repairs": []
+  },
+  {
+    "item": "Defibrillator",
+    "components": {
+      "Plastic Parts": 9,
+      "Moss": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Expired Pasta",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Fabric",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Fruit Mix",
+    "components": {
+      "Lemon": 1,
+      "Apricot": 1,
+      "Prickly Pear": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Herbal Bandage",
+    "components": {
+      "Durable Cloth": 1,
+      "Great Mullein": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Moss",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Mushroom",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Resin",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Sterilized Bandage",
+    "components": {
+      "Durable Cloth": 2,
+      "Antiseptic": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Vita Shot",
+    "components": {
+      "Antiseptic": 1,
+      "Syringe": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Vita Spray",
+    "components": {
+      "Antiseptic": 3,
+      "Canister": 1
+    },
+    "repairs": [
+      {
+        "components": {
+          "Antiseptic": 1,
+          "Canister": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "ARC Powercell",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Integrated Shield Recharger",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Shield Recharger",
+    "components": {
+      "Rubber Parts": 5,
+      "ARC Powercell": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Surge Shield Recharger",
+    "components": {
+      "Electrical Components": 1,
+      "Advanced ARC Powercell": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Adrenaline Shot",
+    "components": {
+      "Chemicals": 3,
+      "Plastic Parts": 3
+    },
+    "repairs": []
+  },
+  {
+    "item": "Agave Juice",
+    "components": {
+      "Agave": 1,
+      "Empty Wine Bottle": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Apricot",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Bloated Tuna Can",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Lemon",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Olives",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Prickly Pear",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Barricade Kit",
+    "components": {
+      "Mechanical Components": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Door Blocker",
+    "components": {
+      "Metal Parts": 3,
+      "Rubber Parts": 3
+    },
+    "repairs": []
+  },
+  {
+    "item": "Remote Raider Flare",
+    "components": {
+      "Chemicals": 2,
+      "Rubber Parts": 4
+    },
+    "repairs": []
+  },
+  {
+    "item": "Zipline",
+    "components": {
+      "Rope": 1,
+      "Mechanical Components": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Binoculars",
+    "components": {
+      "Plastic Parts": 8,
+      "Rubber Parts": 4
+    },
+    "repairs": []
+  },
+  {
+    "item": "Flame Spray",
+    "components": {
+      "Air Freshener": 1,
+      "Fireball Burner": 1
+    },
+    "repairs": [
+      {
+        "components": {
+          "Canister": 1,
+          "Fireball Burner": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Integrated Binoculars",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Noisemaker",
+    "components": {
+      "Speaker Component": 1,
+      "Plastic Parts": 2
+    },
+    "repairs": []
+  },
+  {
+    "item": "Photoelectric Cloak",
+    "components": {
+      "Advanced Electrical Components": 2,
+      "Speaker Component": 4
+    },
+    "repairs": [
+      {
+        "components": {
+          "Advanced Electrical Components": 1,
+          "Speaker Component": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Recorder",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Snap Hook",
+    "components": {
+      "Power Rod": 2,
+      "Rope": 3,
+      "Exodus Modules": 1
+    },
+    "repairs": [
+      {
+        "components": {
+          "Power Rod": 1,
+          "Exodus Modules": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Blaze Grenade",
+    "components": {
+      "Explosive Compound": 1,
+      "Oil": 2
+    },
+    "repairs": []
+  },
+  {
+    "item": "Gas Grenade",
+    "components": {
+      "Chemicals": 4,
+      "Rubber Parts": 2
+    },
+    "repairs": []
+  },
+  {
+    "item": "Heavy Fuze Grenade",
+    "components": {
+      "Explosive Compound": 1,
+      "Canister": 2
+    },
+    "repairs": []
+  },
+  {
+    "item": "Li'l Smoke Grenade",
+    "components": {
+      "Chemicals": 5,
+      "Plastic Parts": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Light Impact Grenade",
+    "components": {
+      "Plastic Parts": 1,
+      "Chemicals": 3
+    },
+    "repairs": []
+  },
+  {
+    "item": "Light Stick",
+    "components": {
+      "Chemicals": 3
+    },
+    "repairs": []
+  },
+  {
+    "item": "Lure Grenade",
+    "components": {
+      "Speaker Component": 1,
+      "Plastic Parts": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Showstopper",
+    "components": {
+      "Advanced Electrical Components": 1,
+      "Voltage Converter": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Shrapnel Grenade",
+    "components": {
+      "Crude Explosives": 1,
+      "Steel Spring": 2
+    },
+    "repairs": []
+  },
+  {
+    "item": "Smoke Grenade",
+    "components": {
+      "Chemicals": 7,
+      "Canister": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Snap Blast Grenade",
+    "components": {
+      "Crude Explosives": 2,
+      "Magnet": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Tagging Grenade",
+    "components": {
+      "Electrical Components": 1,
+      "Sensors": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Trigger 'Nade",
+    "components": {
+      "Crude Explosives": 2,
+      "Processor": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Wolfpack",
+    "components": {
+      "Explosive Compound": 2,
+      "Sensors": 2
+    },
+    "repairs": []
+  },
+  {
+    "item": "Crude Explosives",
+    "components": {
+      "Chemicals": 6
+    },
+    "repairs": []
+  },
+  {
+    "item": "Fireball Burner",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Hornet Driver",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Leaper Pulse Unit",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Rubber Duck",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Snitch Scanner",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Synthesized Fuel",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Wasp Driver",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Blaze Grenade Trap",
+    "components": {
+      "Blaze Grenade": 1,
+      "Wires": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Gas Grenade Trap",
+    "components": {
+      "Gas Grenade": 1,
+      "Wires": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Lure Grenade Trap",
+    "components": {
+      "Lure Grenade": 1,
+      "Wires": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Smoke Grenade Trap",
+    "components": {
+      "Smoke Grenade": 1,
+      "Wires": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Explosive Mine",
+    "components": {
+      "Explosive Compound": 1,
+      "Sensors": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Jolt Mine",
+    "components": {
+      "Electrical Components": 1,
+      "Battery": 1
+    },
+    "repairs": []
+  }
+]

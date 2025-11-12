@@ -1,0 +1,26 @@
+{
+    "Foundation": {
+        "Metal Parts": 150,
+        "Rubber Parts": 200,
+        "ARC Alloy": 80,
+        "Steel Spring": 15
+    },
+    "Core Systems": {
+        "Durable Cloth": 35,
+        "Wires": 30,
+        "Electrical Components": 30,
+        "Cooling Fan": 5
+    },
+    "Framework": {
+        "Lightbulb": 5,
+        "Battery": 30,
+        "Exodus Module": 1
+    },
+    "Outfitting": {
+        "Humidifier": 5,
+        "Advanced Electrical Components": 5,
+        "Magnetic Accelerator": 3,
+        "Leaper Pulse Unit": 3
+    },
+    "Load Stage": {}
+}

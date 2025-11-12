@@ -1,0 +1,664 @@
+[
+  {
+    "item": "Compensator I",
+    "components": {
+      "Metal Parts": 6,
+      "Wires": 1
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Muzzle Brake I",
+    "components": {
+      "Metal Parts": 6,
+      "Wires": 1
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Shotgun Choke I",
+    "components": {
+      "Metal Parts": 6,
+      "Wires": 1
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Angled Grip I",
+    "components": {
+      "Plastic Parts": 6,
+      "Duct Tape": 1
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Vertical Grip I",
+    "components": {
+      "Plastic Parts": 6,
+      "Duct Tape": 1
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Extended Light Mag I",
+    "components": {
+      "Plastic Parts": 6,
+      "Steel Spring": 1
+    },
+    "compatible": [
+      "Hairpin",
+      "Kettle",
+      "Stitcher",
+      "Burletta",
+      "Bobcat"
+    ]
+  },
+  {
+    "item": "Extended Medium Mag I",
+    "components": {
+      "Plastic Parts": 6,
+      "Steel Spring": 1
+    },
+    "compatible": [
+      "Arpeggio",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Extended Shotgun Mag I",
+    "components": {
+      "Plastic Parts": 6,
+      "Steel Spring": 1
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Stable Stock I",
+    "components": {
+      "Rubber Parts": 7,
+      "Duct Tape": 1
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Compensator II",
+    "components": {
+      "Mechanical Components": 2,
+      "Wires": 4
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Muzzle Brake II",
+    "components": {
+      "Mechanical Components": 2,
+      "Wires": 4
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Shotgun Choke II",
+    "components": {
+      "Mechanical Components": 2,
+      "Wires": 4
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Silencer I",
+    "components": {
+      "Mechanical Components": 2,
+      "Wires": 4
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Angled Grip II",
+    "components": {
+      "Mechanical Components": 2,
+      "Duct Tape": 3
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Vertical Grip II",
+    "components": {
+      "Mechanical Components": 2,
+      "Duct Tape": 3
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Extended Light Mag II",
+    "components": {
+      "Mechanical Components": 2,
+      "Steel Spring": 3
+    },
+    "compatible": [
+      "Hairpin",
+      "Kettle",
+      "Stitcher",
+      "Burletta",
+      "Bobcat"
+    ]
+  },
+  {
+    "item": "Extended Medium Mag II",
+    "components": {
+      "Mechanical Components": 2,
+      "Steel Spring": 3
+    },
+    "compatible": [
+      "Arpeggio",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Extended Shotgun Mag II",
+    "components": {
+      "Mechanical Components": 2,
+      "Steel Spring": 3
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Stable Stock II",
+    "components": {
+      "Mechanical Components": 2,
+      "Duct Tape": 3
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Compensator III",
+    "components": {
+      "Mod Components": 2,
+      "Wires": 8
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Muzzle Brake III",
+    "components": {
+      "Mod Components": 2,
+      "Wires": 8
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Shotgun Choke III",
+    "components": {
+      "Mod Components": 2,
+      "Wires": 8
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Silencer II",
+    "components": {
+      "Mod Components": 2,
+      "Wires": 8
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Silencer III",
+    "components": {},
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Shotgun Silencer",
+    "components": {
+      "Mod Components": 2,
+      "Wires": 8
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Extended Barrel",
+    "components": {},
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Anvil",
+      "Arpeggio",
+      "Burletta",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Angled Grip III",
+    "components": {
+      "Mod Components": 2,
+      "Duct Tape": 5
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Vertical Grip III",
+    "components": {
+      "Mod Components": 2,
+      "Duct Tape": 5
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Horizontal Grip",
+    "components": {
+      "Mod Components": 2,
+      "Duct Tape": 5
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Venator",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Extended Light Mag III",
+    "components": {
+      "Mod Components": 2,
+      "Steel Spring": 5
+    },
+    "compatible": [
+      "Hairpin",
+      "Kettle",
+      "Stitcher",
+      "Burletta",
+      "Bobcat"
+    ]
+  },
+  {
+    "item": "Extended Medium Mag III",
+    "components": {
+      "Mod Components": 2,
+      "Steel Spring": 5
+    },
+    "compatible": [
+      "Arpeggio",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Tempest"
+    ]
+  },
+  {
+    "item": "Extended Shotgun Mag III",
+    "components": {
+      "Mod Components": 2,
+      "Steel Spring": 5
+    },
+    "compatible": [
+      "Il Toro",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Stable Stock III",
+    "components": {
+      "Mod Components": 2,
+      "Duct Tape": 5
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Lightweight Stock",
+    "components": {
+      "Mod Components": 2,
+      "Duct Tape": 5
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Padded Stock",
+    "components": {
+      "Mod Components": 2,
+      "Duct Tape": 5
+    },
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Kinetic Converter",
+    "components": {},
+    "compatible": [
+      "Ferro",
+      "Kettle",
+      "Rattler",
+      "Stitcher",
+      "Arpeggio",
+      "Il Toro",
+      "Osprey",
+      "Renegade",
+      "Torrente",
+      "Bettina",
+      "Bobcat",
+      "Tempest",
+      "Vulcano"
+    ]
+  },
+  {
+    "item": "Anvil Splitter",
+    "components": {},
+    "compatible": [
+      "Anvil"
+    ]
+  }
+]

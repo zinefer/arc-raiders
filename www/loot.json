@@ -1,0 +1,590 @@
+[
+  {
+    "item": "Advanced ARC Powercell"
+  },
+  {
+    "item": "Advanced Electrical Components"
+  },
+  {
+    "item": "Advanced Mechanical Components"
+  },
+  {
+    "item": "Agave"
+  },
+  {
+    "item": "Air Freshener"
+  },
+  {
+    "item": "Alarm Clock"
+  },
+  {
+    "item": "Antiseptic"
+  },
+  {
+    "item": "Apricot"
+  },
+  {
+    "item": "ARC Alloy"
+  },
+  {
+    "item": "ARC Circuitry"
+  },
+  {
+    "item": "ARC Coolant"
+  },
+  {
+    "item": "ARC Flex Rubber"
+  },
+  {
+    "item": "ARC Motion Core"
+  },
+  {
+    "item": "ARC Performance Steel"
+  },
+  {
+    "item": "ARC Powercell"
+  },
+  {
+    "item": "ARC Synthetic Resin"
+  },
+  {
+    "item": "ARC Thermo Lining"
+  },
+  {
+    "item": "Assorted Seeds"
+  },
+  {
+    "item": "Bastion Cell"
+  },
+  {
+    "item": "Battery"
+  },
+  {
+    "item": "Bicycle Pump"
+  },
+  {
+    "item": "Bloated Tuna Can"
+  },
+  {
+    "item": "Blown Fuses"
+  },
+  {
+    "item": "Blue Gate Communication Tower Key"
+  },
+  {
+    "item": "Blue Gate Confiscation Room Key"
+  },
+  {
+    "item": "Blue Gate Cellar Key"
+  },
+  {
+    "item": "Blue Gate Village Key"
+  },
+  {
+    "item": "Bombardier Cell"
+  },
+  {
+    "item": "Breathtaking Snow Globe"
+  },
+  {
+    "item": "Broken Flashlight"
+  },
+  {
+    "item": "Broken Guidance System"
+  },
+  {
+    "item": "Broken Handheld Radio"
+  },
+  {
+    "item": "Broken Taser"
+  },
+  {
+    "item": "Buried City Hospital Key"
+  },
+  {
+    "item": "Buried City JKV Employee Access Card"
+  },
+  {
+    "item": "Buried City Residential Mastery Key"
+  },
+  {
+    "item": "Buried City Town Hall Key"
+  },
+  {
+    "item": "Burned ARC Circuitry"
+  },
+  {
+    "item": "Camera Lens"
+  },
+  {
+    "item": "Candle Holder"
+  },
+  {
+    "item": "Canister"
+  },
+  {
+    "item": "Cat Bed"
+  },
+  {
+    "item": "Chemicals"
+  },
+  {
+    "item": "Coffee Pot"
+  },
+  {
+    "item": "Complex Gun Parts"
+  },
+  {
+    "item": "Coolant"
+  },
+  {
+    "item": "Cooling Coil"
+  },
+  {
+    "item": "Cooling Fan"
+  },
+  {
+    "item": "Cracked Bioscanner"
+  },
+  {
+    "item": "Crude Explosives"
+  },
+  {
+    "item": "Crumpled Plastic Bottle"
+  },
+  {
+    "item": "Dam Control Tower Key"
+  },
+  {
+    "item": "Dam Staff Room Key"
+  },
+  {
+    "item": "Dam Surveillance Key"
+  },
+  {
+    "item": "Dam Testing Annex Key"
+  },
+  {
+    "item": "Dam Utility Key"
+  },
+  {
+    "item": "Damaged ARC Motion Core"
+  },
+  {
+    "item": "Damaged ARC Powercell"
+  },
+  {
+    "item": "Damaged Fireball Burner"
+  },
+  {
+    "item": "Damaged Heat Sink"
+  },
+  {
+    "item": "Damaged Hornet Driver"
+  },
+  {
+    "item": "Damaged Rocketeer Driver"
+  },
+  {
+    "item": "Damaged Snitch Scanner"
+  },
+  {
+    "item": "Damaged Tick Pod"
+  },
+  {
+    "item": "Damaged Wasp Driver"
+  },
+  {
+    "item": "Dart Board"
+  },
+  {
+    "item": "Deflated Football"
+  },
+  {
+    "item": "Degraded ARC Rubber"
+  },
+  {
+    "item": "Diving Goggles"
+  },
+  {
+    "item": "Dog Collar"
+  },
+  {
+    "item": "Dried-Out ARC Resin"
+  },
+  {
+    "item": "Duct Tape"
+  },
+  {
+    "item": "Durable Cloth"
+  },
+  {
+    "item": "Electrical Components"
+  },
+  {
+    "item": "Empty Wine Bottle"
+  },
+  {
+    "item": "Exodus Modules"
+  },
+  {
+    "item": "Expired Pasta"
+  },
+  {
+    "item": "Expired Respirator"
+  },
+  {
+    "item": "Explosive Compound"
+  },
+  {
+    "item": "Fabric"
+  },
+  {
+    "item": "Faded Photograph"
+  },
+  {
+    "item": "Fertilizer"
+  },
+  {
+    "item": "Film Reel"
+  },
+  {
+    "item": "Fine Wristwatch"
+  },
+  {
+    "item": "Fireball Burner"
+  },
+  {
+    "item": "Fried Motherboard"
+  },
+  {
+    "item": "Frying Pan"
+  },
+  {
+    "item": "Garlic Press"
+  },
+  {
+    "item": "Great Mullein"
+  },
+  {
+    "item": "Headphones"
+  },
+  {
+    "item": "Heavy Gun Parts"
+  },
+  {
+    "item": "Hornet Driver"
+  },
+  {
+    "item": "Household Cleaner"
+  },
+  {
+    "item": "Humidifier"
+  },
+  {
+    "item": "Ice Cream Scooper"
+  },
+  {
+    "item": "Impure ARC Coolant"
+  },
+  {
+    "item": "Industrial Battery"
+  },
+  {
+    "item": "Industrial Charger"
+  },
+  {
+    "item": "Industrial Magnet"
+  },
+  {
+    "item": "Laboratory Reagents"
+  },
+  {
+    "item": "Lance's Mixtape (5th Edition)"
+  },
+  {
+    "item": "Lemon"
+  },
+  {
+    "item": "Leaper Pulse Unit"
+  },
+  {
+    "item": "Light Bulb"
+  },
+  {
+    "item": "Light Gun Parts"
+  },
+  {
+    "item": "Magnet"
+  },
+  {
+    "item": "Magnetic Accelerator"
+  },
+  {
+    "item": "Mechanical Components"
+  },
+  {
+    "item": "Medium Gun Parts"
+  },
+  {
+    "item": "Metal Brackets"
+  },
+  {
+    "item": "Metal Parts"
+  },
+  {
+    "item": "Mod Components"
+  },
+  {
+    "item": "Moss"
+  },
+  {
+    "item": "Motor"
+  },
+  {
+    "item": "Mushroom"
+  },
+  {
+    "item": "Music Album"
+  },
+  {
+    "item": "Music Box"
+  },
+  {
+    "item": "Number Plate"
+  },
+  {
+    "item": "Oil"
+  },
+  {
+    "item": "Olives"
+  },
+  {
+    "item": "Painted Box"
+  },
+  {
+    "item": "Patrol Car Key"
+  },
+  {
+    "item": "Plastic Parts"
+  },
+  {
+    "item": "Playing Cards"
+  },
+  {
+    "item": "Polluted Air Filter"
+  },
+  {
+    "item": "Pop Trigger"
+  },
+  {
+    "item": "Portable TV"
+  },
+  {
+    "item": "Poster Of Natural Wonders"
+  },
+  {
+    "item": "Pottery"
+  },
+  {
+    "item": "Power Bank"
+  },
+  {
+    "item": "Power Cable"
+  },
+  {
+    "item": "Power Rod"
+  },
+  {
+    "item": "Prickly Pear"
+  },
+  {
+    "item": "Processor"
+  },
+  {
+    "item": "Projector"
+  },
+  {
+    "item": "Queen Reactor"
+  },
+  {
+    "item": "Radio"
+  },
+  {
+    "item": "Raider Hatch Key"
+  },
+  {
+    "item": "Red Coral Jewelry"
+  },
+  {
+    "item": "Remote Control"
+  },
+  {
+    "item": "Resin"
+  },
+  {
+    "item": "Rocketeer Driver"
+  },
+  {
+    "item": "Ripped Safety Vest"
+  },
+  {
+    "item": "Rocket Thruster"
+  },
+  {
+    "item": "Roots"
+  },
+  {
+    "item": "Rope"
+  },
+  {
+    "item": "Rosary"
+  },
+  {
+    "item": "Rubber Duck"
+  },
+  {
+    "item": "Rubber Pad"
+  },
+  {
+    "item": "Rubber Parts"
+  },
+  {
+    "item": "Ruined Accordion"
+  },
+  {
+    "item": "Ruined Augment"
+  },
+  {
+    "item": "Ruined Baton"
+  },
+  {
+    "item": "Ruined Handcuffs"
+  },
+  {
+    "item": "Ruined Parachute"
+  },
+  {
+    "item": "Ruined Tactical Vest"
+  },
+  {
+    "item": "Ruined Riot Shield"
+  },
+  {
+    "item": "Rusted Bolts"
+  },
+  {
+    "item": "Rusted Gear"
+  },
+  {
+    "item": "Rusted Shut Medical Kit"
+  },
+  {
+    "item": "Rusted Tools"
+  },
+  {
+    "item": "Rusty ARC Steel"
+  },
+  {
+    "item": "Sensors"
+  },
+  {
+    "item": "Sentinel Firing Core"
+  },
+  {
+    "item": "Silver Teaspoon Set"
+  },
+  {
+    "item": "Simple Gun Parts"
+  },
+  {
+    "item": "Snitch Scanner"
+  },
+  {
+    "item": "Spaceport Container Storage Key"
+  },
+  {
+    "item": "Spaceport Control Tower Key"
+  },
+  {
+    "item": "Spaceport Trench Tower Key"
+  },
+  {
+    "item": "Spaceport Warehouse Key"
+  },
+  {
+    "item": "Speaker Component"
+  },
+  {
+    "item": "Spring Cushion"
+  },
+  {
+    "item": "Spotter Relay"
+  },
+  {
+    "item": "Statuette"
+  },
+  {
+    "item": "Steel Spring"
+  },
+  {
+    "item": "Surveyor Vault"
+  },
+  {
+    "item": "Synthesized Fuel"
+  },
+  {
+    "item": "Syringe"
+  },
+  {
+    "item": "Tattered ARC Lining"
+  },
+  {
+    "item": "Tattered Clothes"
+  },
+  {
+    "item": "Thermostat"
+  },
+  {
+    "item": "Tick Pod"
+  },
+  {
+    "item": "Toaster"
+  },
+  {
+    "item": "Torn Book"
+  },
+  {
+    "item": "Torn Blanket"
+  },
+  {
+    "item": "Turbo Pump"
+  },
+  {
+    "item": "Unusable Weapon"
+  },
+  {
+    "item": "Vase"
+  },
+  {
+    "item": "Very Comfortable Pillow"
+  },
+  {
+    "item": "Volcanic Rock"
+  },
+  {
+    "item": "Voltage Converter"
+  },
+  {
+    "item": "Wasp Driver"
+  },
+  {
+    "item": "Water Filter"
+  },
+  {
+    "item": "Water Pump"
+  },
+  {
+    "item": "Wires"
+  }
+]

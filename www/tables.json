@@ -1,0 +1,50 @@
+{
+  "Gunsmith": [
+    { "Metal Parts": 20, "Rubber Parts": 30 },
+    { "Rusted Tools": 3, "Mechanical Components": 5, "Wasp Driver": 8 },
+    {
+      "Rusted Gear": 3,
+      "Advanced Mechanical Components": 5,
+      "Sentinel Firing Core": 4
+    }
+  ],
+  "Gear": [
+    { "Plastic Parts": 25, "Fabric": 30 },
+    { "Power Cable": 3, "Electrical Components": 5, "Hornet Driver": 5 },
+    {
+      "Industrial Battery": 3,
+      "Advanced Electrical Components": 5,
+      "Bastion Cell": 6
+    }
+  ],
+  "Medical": [
+    { "Fabric": 50, "ARC Alloy": 6 },
+    { "Cracked Bioscanner": 2, "Durable Cloth": 5, "Tick Pod": 8 },
+    { "Rusted Shut Medical Kit": 3, "Antiseptic": 8, "Surveyor Vault": 5 }
+  ],
+  "Explosives": [
+    { "Chemicals": 50, "ARC Alloy": 6 },
+    { "Synthesized Fuel": 3, "Crude Explosives": 5, "Pop Trigger": 5 },
+    { "Laboratory Reagents": 3, "Explosive Compound": 5, "Rocketeer Driver": 3 }
+  ],
+  "Utility": [
+    { "Plastic Parts": 50, "ARC Alloy": 6 },
+    { "Damaged Heat Sink": 2, "Electrical Components": 5, "Snitch Scanner": 6 },
+    {
+      "Fried Motherboard": 3,
+      "Advanced Electrical Components": 5,
+      "Leaper Pulse Unit": 4
+    }
+  ],
+  "Refiner": [
+    { "Metal Parts": 60, "ARC Powercell": 5 },
+    { "Toaster": 3, "ARC Motion Core": 5, "Fireball Burner": 8 },
+    { "Motor": 3, "ARC Circuitry": 10, "Bombardier Cell": 6 }
+  ],
+  "Scrappy": [
+    { "Dog Collar": 1 },
+    { "Lemon": 3, "Apricot": 3 },
+    { "Prickly Pear": 6, "Olives": 6, "Cat Bed": 1 },
+    { "Mushroom": 12, "Apricot": 12, "Very Comfortable Pillow": 3 }
+  ]
+}

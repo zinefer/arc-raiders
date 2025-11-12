@@ -1,0 +1,963 @@
+[
+  {
+    "item": "Kettle",
+    "components": {
+      "Metal Parts": 6,
+      "Rubber Parts": 8
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Metal Parts": 8,
+          "Plastic Parts": 10
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 10,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Metal Parts": 3,
+          "Rubber Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 6,
+          "Rubber Parts": 6
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 12,
+          "Simple Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Rattler",
+    "components": {
+      "Metal Parts": 16,
+      "Rubber Parts": 12
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Mechanical Components": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Mechanical Components": 1,
+          "Rubber Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Rubber Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Arpeggio",
+    "components": {
+      "Mechanical Components": 6,
+      "Simple Gun Parts": 6
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 5,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 5,
+          "Medium Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Simple Gun Parts": 4
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 5,
+          "Simple Gun Parts": 5
+        }
+      }
+    ]
+  },
+  {
+    "item": "Tempest",
+    "components": {},
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 3
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 5,
+          "Medium Gun Parts": 4
+        }
+      }
+    ]
+  },
+  {
+    "item": "Bettina",
+    "components": {
+      "Advanced Mechanical Components": 3,
+      "Heavy Gun Parts": 3,
+      "Canister": 3
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 2
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Heavy Gun Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Ferro",
+    "components": {
+      "Metal Parts": 5,
+      "Rubber Parts": 2
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Metal Parts": 7
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 9,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 1,
+          "Simple Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Metal Parts": 2,
+          "Rubber Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 4,
+          "Rubber Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 6,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 1,
+          "Simple Gun Parts": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Renegade",
+    "components": {
+      "Advanced Mechanical Components": 2,
+      "Medium Gun Parts": 3,
+      "Oil": 5
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 2
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Medium Gun Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Stitcher",
+    "components": {
+      "Metal Parts": 8,
+      "Rubber Parts": 4
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Metal Parts": 8,
+          "Rubber Parts": 12
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 10,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Metal Parts": 3,
+          "Rubber Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 6,
+          "Rubber Parts": 6
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 12,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Bobcat",
+    "components": {},
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Light Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Light Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Light Gun Parts": 3
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Light Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Light Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 4,
+          "Light Gun Parts": 4
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 5,
+          "Light Gun Parts": 4
+        }
+      }
+    ]
+  },
+  {
+    "item": "Il Toro",
+    "components": {
+      "Mechanical Components": 5,
+      "Simple Gun Parts": 6
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Heavy Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Heavy Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Simple Gun Parts": 4
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 5,
+          "Simple Gun Parts": 5
+        }
+      }
+    ]
+  },
+  {
+    "item": "Vulcano",
+    "components": {
+      "Magnetic Accelerator": 1,
+      "Heavy Gun Parts": 3,
+      "Exodus Modules": 1
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 3
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Heavy Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 4,
+          "Heavy Gun Parts": 4
+        }
+      }
+    ]
+  },
+  {
+    "item": "Hairpin",
+    "components": {
+      "Metal Parts": 2,
+      "Plastic Parts": 5
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Metal Parts": 8
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 6,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 1,
+          "Simple Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Metal Parts": 2,
+          "Rubber Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 4,
+          "Rubber Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Metal Parts": 6,
+          "Mechanical Components": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 1,
+          "Simple Gun Parts": 2
+        }
+      }
+    ]
+  },
+  {
+    "item": "Burletta",
+    "components": {
+      "Mechanical Components": 3,
+      "Simple Gun Parts": 3
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Light Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Mechanical Components": 1,
+          "Simple Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Simple Gun Parts": 4
+        }
+      }
+    ]
+  },
+  {
+    "item": "Anvil",
+    "components": {
+      "Mechanical Components": 5,
+      "Simple Gun Parts": 6
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Heavy Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Heavy Gun Parts": 1
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Mechanical Components": 2,
+          "Simple Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 3,
+          "Simple Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 4,
+          "Simple Gun Parts": 4
+        }
+      },
+      {
+        "components": {
+          "Mechanical Components": 5,
+          "Simple Gun Parts": 5
+        }
+      }
+    ]
+  },
+  {
+    "item": "Venator",
+    "components": {
+      "Advanced Mechanical Components": 2,
+      "Medium Gun Parts": 3,
+      "Magnet": 5
+    },
+    "upgrades": [],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Medium Gun Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Torrente",
+    "components": {
+      "Advanced Mechanical Components": 2,
+      "Medium Gun Parts": 3,
+      "Steel Spring": 6
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 2
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Medium Gun Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Osprey",
+    "components": {
+      "Advanced Mechanical Components": 2,
+      "Medium Gun Parts": 3,
+      "Wires": 7
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 2
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Medium Gun Parts": 3
+        }
+      }
+    ]
+  },
+  {
+    "item": "Jupiter",
+    "components": {
+      "Magnetic Accelerator": 3,
+      "Complex Gun Parts": 3,
+      "Queen Reactor": 1
+    },
+    "upgrades": [],
+    "repairs": [
+      {
+        "components": {
+          "Magnetic Accelerator": 2,
+          "Complex Gun Parts": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Equalizer",
+    "components": {
+      "Magnetic Accelerator": 3,
+      "Complex Gun Parts": 3,
+      "Queen Reactor": 1
+    },
+    "upgrades": [],
+    "repairs": [
+      {
+        "components": {
+          "Magnetic Accelerator": 2,
+          "Complex Gun Parts": 1
+        }
+      }
+    ]
+  },
+  {
+    "item": "Hullcracker",
+    "components": {
+      "Magnetic Accelerator": 1,
+      "Heavy Gun Parts": 3,
+      "Exodus Modules": 1
+    },
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 3
+        }
+      }
+    ],
+    "repairs": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 1
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Heavy Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 3,
+          "Heavy Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 4,
+          "Heavy Gun Parts": 4
+        }
+      }
+    ]
+  }
+]
