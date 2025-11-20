@@ -159,7 +159,11 @@
   },
   {
     "item": "Tempest",
-    "components": {},
+    "components": {
+      "Magnetic Accelerator": 1,
+      "Medium Gun Parts": 3,
+      "Exodus Modules": 2
+    },
     "upgrades": [
       {
         "components": {
@@ -191,6 +195,12 @@
         "components": {
           "Advanced Mechanical Components": 3,
           "Medium Gun Parts": 3
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 4,
+          "Medium Gun Parts": 4
         }
       },
       {
@@ -416,7 +426,11 @@
   },
   {
     "item": "Bobcat",
-    "components": {},
+    "components": {
+      "Magnetic Accelerator": 1,
+      "Light Gun Parts": 3,
+      "Exodus Modules": 2
+    },
     "upgrades": [
       {
         "components": {
@@ -611,8 +625,8 @@
       },
       {
         "components": {
-          "Metal Parts": 6,
-          "Mechanical Components": 1
+          "Mechanical Components": 1,
+          "Metal Parts": 6
         }
       },
       {
@@ -736,7 +750,26 @@
       "Medium Gun Parts": 3,
       "Magnet": 5
     },
-    "upgrades": [],
+    "upgrades": [
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 1,
+          "Medium Gun Parts": 2
+        }
+      },
+      {
+        "components": {
+          "Advanced Mechanical Components": 2,
+          "Medium Gun Parts": 2
+        }
+      }
+    ],
     "repairs": [
       {
         "components": {
@@ -890,23 +923,6 @@
     ]
   },
   {
-    "item": "Equalizer",
-    "components": {
-      "Magnetic Accelerator": 3,
-      "Complex Gun Parts": 3,
-      "Queen Reactor": 1
-    },
-    "upgrades": [],
-    "repairs": [
-      {
-        "components": {
-          "Magnetic Accelerator": 2,
-          "Complex Gun Parts": 1
-        }
-      }
-    ]
-  },
-  {
     "item": "Hullcracker",
     "components": {
       "Magnetic Accelerator": 1,
@@ -956,6 +972,23 @@
         "components": {
           "Advanced Mechanical Components": 4,
           "Heavy Gun Parts": 4
+        }
+      }
+    ]
+  },
+  {
+    "item": "Equalizer",
+    "components": {
+      "Magnetic Accelerator": 3,
+      "Complex Gun Parts": 3,
+      "Queen Reactor": 1
+    },
+    "upgrades": [],
+    "repairs": [
+      {
+        "components": {
+          "Magnetic Accelerator": 2,
+          "Complex Gun Parts": 1
         }
       }
     ]

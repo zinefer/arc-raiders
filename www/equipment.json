@@ -126,10 +126,7 @@
   },
   {
     "item": "Combat Mk. 3 (Aggressive)",
-    "components": {
-      "Advanced Electrical Components": 2,
-      "Processor": 3
-    },
+    "components": {},
     "repairs": [
       {
         "components": {
@@ -494,6 +491,22 @@
     ]
   },
   {
+    "item": "Light Impact Grenade",
+    "components": {
+      "Plastic Parts": 1,
+      "Chemicals": 3
+    },
+    "repairs": []
+  },
+  {
+    "item": "Heavy Fuze Grenade",
+    "components": {
+      "Explosive Compound": 1,
+      "Canister": 2
+    },
+    "repairs": []
+  },
+  {
     "item": "Blaze Grenade",
     "components": {
       "Explosive Compound": 1,
@@ -510,65 +523,10 @@
     "repairs": []
   },
   {
-    "item": "Heavy Fuze Grenade",
-    "components": {
-      "Explosive Compound": 1,
-      "Canister": 2
-    },
-    "repairs": []
-  },
-  {
-    "item": "Li'l Smoke Grenade",
-    "components": {
-      "Chemicals": 5,
-      "Plastic Parts": 1
-    },
-    "repairs": []
-  },
-  {
-    "item": "Light Impact Grenade",
-    "components": {
-      "Plastic Parts": 1,
-      "Chemicals": 3
-    },
-    "repairs": []
-  },
-  {
-    "item": "Light Stick",
-    "components": {
-      "Chemicals": 3
-    },
-    "repairs": []
-  },
-  {
-    "item": "Lure Grenade",
-    "components": {
-      "Speaker Component": 1,
-      "Plastic Parts": 1
-    },
-    "repairs": []
-  },
-  {
     "item": "Showstopper",
     "components": {
       "Advanced Electrical Components": 1,
       "Voltage Converter": 1
-    },
-    "repairs": []
-  },
-  {
-    "item": "Shrapnel Grenade",
-    "components": {
-      "Crude Explosives": 1,
-      "Steel Spring": 2
-    },
-    "repairs": []
-  },
-  {
-    "item": "Smoke Grenade",
-    "components": {
-      "Chemicals": 7,
-      "Canister": 1
     },
     "repairs": []
   },
@@ -581,10 +539,15 @@
     "repairs": []
   },
   {
-    "item": "Tagging Grenade",
+    "item": "Seeker Grenade",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Shrapnel Grenade",
     "components": {
-      "Electrical Components": 1,
-      "Sensors": 1
+      "Crude Explosives": 1,
+      "Steel Spring": 2
     },
     "repairs": []
   },
@@ -597,11 +560,83 @@
     "repairs": []
   },
   {
+    "item": "Trailblazer",
+    "components": {
+      "Synthesized Fuel": 1,
+      "Explosive Compound": 1
+    },
+    "repairs": []
+  },
+  {
     "item": "Wolfpack",
     "components": {
-      "Explosive Compound": 2,
-      "Sensors": 2
+      "Explosive Compound": 3,
+      "ARC Motion Core": 2
     },
+    "repairs": []
+  },
+  {
+    "item": "Lure Grenade",
+    "components": {
+      "Speaker Component": 1,
+      "Plastic Parts": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Li'l Smoke Grenade",
+    "components": {
+      "Chemicals": 5,
+      "Plastic Parts": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Smoke Grenade",
+    "components": {
+      "Chemicals": 7,
+      "Canister": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Tagging Grenade",
+    "components": {
+      "Electrical Components": 1,
+      "Sensors": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Light Stick",
+    "components": {
+      "Chemicals": 3
+    },
+    "repairs": []
+  },
+  {
+    "item": "Wasp Driver",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Hornet Driver",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Snitch Scanner",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Leaper Pulse Unit",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Fireball Burner",
+    "components": {},
     "repairs": []
   },
   {
@@ -612,37 +647,12 @@
     "repairs": []
   },
   {
-    "item": "Fireball Burner",
-    "components": {},
-    "repairs": []
-  },
-  {
-    "item": "Hornet Driver",
-    "components": {},
-    "repairs": []
-  },
-  {
-    "item": "Leaper Pulse Unit",
-    "components": {},
-    "repairs": []
-  },
-  {
     "item": "Rubber Duck",
     "components": {},
     "repairs": []
   },
   {
-    "item": "Snitch Scanner",
-    "components": {},
-    "repairs": []
-  },
-  {
     "item": "Synthesized Fuel",
-    "components": {},
-    "repairs": []
-  },
-  {
-    "item": "Wasp Driver",
     "components": {},
     "repairs": []
   },
@@ -687,10 +697,27 @@
     "repairs": []
   },
   {
+    "item": "Gas Mine",
+    "components": {},
+    "repairs": []
+  },
+  {
     "item": "Jolt Mine",
     "components": {
       "Electrical Components": 1,
       "Battery": 1
+    },
+    "repairs": []
+  },
+  {
+    "item": "Pulse Mine",
+    "components": {},
+    "repairs": []
+  },
+  {
+    "item": "Deadline",
+    "components": {
+      "Synthesized Fuel": 1
     },
     "repairs": []
   }

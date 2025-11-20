@@ -66,9 +66,6 @@
     "item": "Bloated Tuna Can"
   },
   {
-    "item": "Blown Fuses"
-  },
-  {
     "item": "Blue Gate Communication Tower Key"
   },
   {
@@ -255,6 +252,9 @@
     "item": "Fireball Burner"
   },
   {
+    "item": "Frequency Modulation Box"
+  },
+  {
     "item": "Fried Motherboard"
   },
   {
@@ -262,6 +262,9 @@
   },
   {
     "item": "Garlic Press"
+  },
+  {
+    "item": "Geiger Counter"
   },
   {
     "item": "Great Mullein"
@@ -297,6 +300,9 @@
     "item": "Industrial Magnet"
   },
   {
+    "item": "Ion Sputter"
+  },
+  {
     "item": "Laboratory Reagents"
   },
   {
@@ -321,6 +327,12 @@
     "item": "Magnetic Accelerator"
   },
   {
+    "item": "Magnetron"
+  },
+  {
+    "item": "Matriarch Reactor"
+  },
+  {
     "item": "Mechanical Components"
   },
   {
@@ -331,6 +343,12 @@
   },
   {
     "item": "Metal Parts"
+  },
+  {
+    "item": "Microscope"
+  },
+  {
+    "item": "Mini Centrifuge"
   },
   {
     "item": "Mod Components"
@@ -411,6 +429,9 @@
     "item": "Radio"
   },
   {
+    "item": "Radio Relay"
+  },
+  {
     "item": "Raider Hatch Key"
   },
   {
@@ -423,13 +444,13 @@
     "item": "Resin"
   },
   {
-    "item": "Rocketeer Driver"
-  },
-  {
     "item": "Ripped Safety Vest"
   },
   {
     "item": "Rocket Thruster"
+  },
+  {
+    "item": "Rocketeer Driver"
   },
   {
     "item": "Roots"
@@ -439,6 +460,9 @@
   },
   {
     "item": "Rosary"
+  },
+  {
+    "item": "Rotary Encoder"
   },
   {
     "item": "Rubber Duck"
@@ -486,10 +510,19 @@
     "item": "Rusty ARC Steel"
   },
   {
+    "item": "Sample Cleaner"
+  },
+  {
     "item": "Sensors"
   },
   {
     "item": "Sentinel Firing Core"
+  },
+  {
+    "item": "Shredder Gyro"
+  },
+  {
+    "item": "Signal Amplifier"
   },
   {
     "item": "Silver Teaspoon Set"
@@ -516,6 +549,12 @@
     "item": "Speaker Component"
   },
   {
+    "item": "Spectrometer"
+  },
+  {
+    "item": "Spectrum Analyzer"
+  },
+  {
     "item": "Spring Cushion"
   },
   {
@@ -526,6 +565,18 @@
   },
   {
     "item": "Steel Spring"
+  },
+  {
+    "item": "Stella Montis Archives Key"
+  },
+  {
+    "item": "Stella Montis Assembly Admin Key"
+  },
+  {
+    "item": "Stella Montis Medical Storage Key"
+  },
+  {
+    "item": "Stella Montis Security Checkpoint Key"
   },
   {
     "item": "Surveyor Vault"
@@ -541,6 +592,9 @@
   },
   {
     "item": "Tattered Clothes"
+  },
+  {
+    "item": "Telemetry Transceiver"
   },
   {
     "item": "Thermostat"

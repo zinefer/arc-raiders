@@ -323,7 +323,7 @@
       {
         "quest": "Untended Garden",
         "objective": {
-          "text": "Go to the Hydroponic Dome Complex\nAccess the data archive in one of the domes\nUpload the data to the com1ter terminal in any Field Depot",
+          "text": "Go to the Hydroponic Dome Complex\nAccess the data archive in one of the domes\nUpload the data to the computer terminal in any Field Depot",
           "items": []
         },
         "reward": "3x Advanced Mechanical Components\n3x Heavy Gun Parts\n5x Canister",
@@ -440,6 +440,25 @@
           "items": []
         },
         "reward": "2x Heavy Gun Parts\n2x Medium Gun Parts"
+      },
+      {
+        "quest": "Cold Storage",
+        "objective": {
+          "text": "In one round, search any J Kozma Ventures container\nIn one round, deliver the Rare Books to Shani",
+          "items": []
+        },
+        "reward": "3x Gas Mine\n1x Raider Hatch Key",
+        "nextQuests": [
+          "Snap and Salvage"
+        ]
+      },
+      {
+        "quest": "In My Image",
+        "objective": {
+          "text": "Deploy into Stella Montis\nFind and search 3 Androids",
+          "items": []
+        },
+        "reward": "1x Looting Mk2\n5x Green Light Stick"
       }
     ]
   },
@@ -580,6 +599,17 @@
           }
         },
         "reward": "1x Launcher Ammo Blueprint"
+      },
+      {
+        "quest": "Snap and Salvage",
+        "objective": {
+          "text": "Take a photo of any of the Rovers in the Sandbox\nSearch the papers in the Security Checkpoint room by the Lobby\nDeliver a Magnetron to Tian Wen\nDeliver a Flow Controller to Tian Wen",
+          "items": {
+            "Flow Controller": 1,
+            "Magnetron": 1
+          }
+        },
+        "reward": "1x Burletta Iii\n1x Silencer Ii\n1x Extended Light Mag Ii\n100x Light Ammo"
       }
     ]
   },
