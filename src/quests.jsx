@@ -287,6 +287,7 @@ function App() {
   const [showModal, setShowModal] = useState(false);
   const [selectedQuests, setSelectedQuests] = useState([]);
   const [questsData, setQuestsData] = useState(null);
+  const [lastUpdateData, setLastUpdateData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [zoomLevel, setZoomLevel] = useState(1);
   const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
@@ -307,8 +308,12 @@ function App() {
   useEffect(() => {
     async function loadData() {
       try {
-        const quests = await fetch('quests.json').then(r => r.json());
+        const [quests, lastUpdate] = await Promise.all([
+          fetch('quests.json').then(r => r.json()),
+          fetch('last-update.json').then(r => r.json()).catch(() => ({ lastUpdate: null }))
+        ]);
         setQuestsData(quests);
+        setLastUpdateData(lastUpdate);
         // Load saved configuration from localStorage
         const savedConfig = localStorage.getItem('arcRaidersConfig');
         if (savedConfig) {
@@ -715,6 +720,15 @@ function App() {
               <div className="legend-outline active"></div>
               <span style={{ color: 'var(--text-primary)' }}>Active</span>
             </div>
+            
+            {lastUpdateData && lastUpdateData.lastUpdate && (
+              <>
+                <div className="legend-separator"></div>
+                <div className="legend-update">
+                  Updated: {new Date(lastUpdateData.lastUpdate).toLocaleString()}
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>

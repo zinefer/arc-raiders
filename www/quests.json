@@ -126,7 +126,10 @@
           "items": []
         },
         "reward": "1x Crimson Racer Aviator\n1x Anvil Iii\n40x Heavy Ammo",
-        "map": "buried_city"
+        "map": "buried_city",
+        "nextQuests": [
+          "Into the Fray"
+        ]
       },
       {
         "quest": "Out of the Shadows",
@@ -307,7 +310,10 @@
             "Battery": 2
           }
         },
-        "reward": "5x Blue Light Stick\n3x Antiseptic\n5x Durable Cloth"
+        "reward": "5x Blue Light Stick\n3x Antiseptic\n5x Durable Cloth",
+        "nextQuests": [
+          "Communication Hideout"
+        ]
       },
       {
         "quest": "A Balanced Harvest",
@@ -350,7 +356,8 @@
         },
         "reward": "3x Mechanical Components\n3x Simple Gun Parts\n3x Steel Spring",
         "nextQuests": [
-          "Source of the Contamination"
+          "Source of the Contamination",
+          "Into the Fray"
         ]
       },
       {
@@ -458,7 +465,10 @@
           "text": "Deploy into Stella Montis\nFind and search 3 Androids",
           "items": []
         },
-        "reward": "1x Looting Mk2\n5x Green Light Stick"
+        "reward": "1x Looting Mk2\n5x Green Light Stick",
+        "nextQuests": [
+          "Cold Storage"
+        ]
       }
     ]
   },
@@ -564,7 +574,10 @@
           "text": "Find Tian Wen's weapon cache near the Gas Station in the Outskirts\nDeliver the Burletta to the rival weapon cache\nPlant a bug on the weapon cache",
           "items": []
         },
-        "reward": "1x Burletta Blueprint\n3x Mechanical Components\n3x Simple Gun Parts"
+        "reward": "1x Burletta Blueprint\n3x Mechanical Components\n3x Simple Gun Parts",
+        "nextQuests": [
+          "Unexpected Initiative"
+        ]
       },
       {
         "quest": "Unexpected Initiative",

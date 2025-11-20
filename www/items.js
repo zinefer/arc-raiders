@@ -453,20 +453,22 @@
     const [equipmentData, setEquipmentData] = useState(null);
     const [lootData, setLootData] = useState(null);
     const [weaponModsData, setWeaponModsData] = useState(null);
+    const [lastUpdateData, setLastUpdateData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [projectsEnabled, setProjectsEnabled] = useState(false);
     useEffect(() => {
       function loadData() {
         return __async(this, null, function* () {
           try {
-            const [quests, projects, tables, weapons, equipment, loot, weaponMods] = yield Promise.all([
+            const [quests, projects, tables, weapons, equipment, loot, weaponMods, lastUpdate] = yield Promise.all([
               fetch("quests.json").then((r) => r.json()),
               fetch("projects.json").then((r) => r.json()),
               fetch("tables.json").then((r) => r.json()),
               fetch("weapons.json").then((r) => r.json()),
               fetch("equipment.json").then((r) => r.json()),
               fetch("loot.json").then((r) => r.json()),
-              fetch("weapon_modifications.json").then((r) => r.json())
+              fetch("weapon_modifications.json").then((r) => r.json()),
+              fetch("last-update.json").then((r) => r.json()).catch(() => ({ lastUpdate: null }))
             ]);
             setQuestsData(quests);
             setProjectsData(projects);
@@ -475,6 +477,7 @@
             setEquipmentData(equipment);
             setLootData(loot);
             setWeaponModsData(weaponMods);
+            setLastUpdateData(lastUpdate);
             const initialWorkshopLevels = {};
             Object.keys(tables).forEach((workshop) => {
               initialWorkshopLevels[workshop] = 0;
@@ -770,7 +773,7 @@
       },
       /* @__PURE__ */ React.createElement("span", { style: { whiteSpace: "nowrap" } }, "Made with"),
       /* @__PURE__ */ React.createElement("span", { style: { whiteSpace: "nowrap" } }, "\u{1F9E1} by Zinefer")
-    ), /* @__PURE__ */ React.createElement("button", { className: "theme-toggle", onClick: toggleTheme }, theme === "dark" ? "\u2600\uFE0F" : "\u{1F319}"))), /* @__PURE__ */ React.createElement("div", { className: `drawer-overlay ${mobileDrawerOpen ? "visible" : ""}`, onClick: () => setMobileDrawerOpen(false) }), /* @__PURE__ */ React.createElement("div", { className: `mobile-drawer ${mobileDrawerOpen ? "open" : ""}` }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-header" }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-title" }, "Configuration"), /* @__PURE__ */ React.createElement("button", { className: "mobile-drawer-close", onClick: () => setMobileDrawerOpen(false) }, "\xD7")), configOptions.map((option) => /* @__PURE__ */ React.createElement("div", { key: option.id, className: "mobile-drawer-item", onClick: () => openModal(option.id) }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-icon" }, option.icon), /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-content" }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-label" }, option.title), /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-desc" }, option.description), getConfigBadgeText(option.id) && /* @__PURE__ */ React.createElement("div", { className: "config-box-badge" }, getConfigBadgeText(option.id)))))), /* @__PURE__ */ React.createElement("div", { className: "main-content" }, /* @__PURE__ */ React.createElement("div", { className: "container" }, /* @__PURE__ */ React.createElement("p", { className: "section-description" }, "Search for any item to find out if you should keep or recycle/sell it"), /* @__PURE__ */ React.createElement("div", { className: "config-boxes" }, configOptions.map((option) => /* @__PURE__ */ React.createElement(
+    ), /* @__PURE__ */ React.createElement("button", { className: "theme-toggle", onClick: toggleTheme }, theme === "dark" ? "\u2600\uFE0F" : "\u{1F319}"))), /* @__PURE__ */ React.createElement("div", { className: `drawer-overlay ${mobileDrawerOpen ? "visible" : ""}`, onClick: () => setMobileDrawerOpen(false) }), /* @__PURE__ */ React.createElement("div", { className: `mobile-drawer ${mobileDrawerOpen ? "open" : ""}` }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-header" }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-title" }, "Configuration"), /* @__PURE__ */ React.createElement("button", { className: "mobile-drawer-close", onClick: () => setMobileDrawerOpen(false) }, "\xD7")), configOptions.map((option) => /* @__PURE__ */ React.createElement("div", { key: option.id, className: "mobile-drawer-item", onClick: () => openModal(option.id) }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-icon" }, option.icon), /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-content" }, /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-label" }, option.title), /* @__PURE__ */ React.createElement("div", { className: "mobile-drawer-desc" }, option.description), getConfigBadgeText(option.id) && /* @__PURE__ */ React.createElement("div", { className: "config-box-badge" }, getConfigBadgeText(option.id)))))), /* @__PURE__ */ React.createElement("div", { className: "main-content" }, /* @__PURE__ */ React.createElement("div", { className: "container" }, /* @__PURE__ */ React.createElement("p", { className: "section-description" }, "Search for any item to find out if you should keep or recycle/sell it", lastUpdateData && lastUpdateData.lastUpdate && /* @__PURE__ */ React.createElement("span", { className: "last-update-text" }, "Data last updated: ", new Date(lastUpdateData.lastUpdate).toLocaleString())), /* @__PURE__ */ React.createElement("div", { className: "config-boxes" }, configOptions.map((option) => /* @__PURE__ */ React.createElement(
       "div",
       {
         key: option.id,

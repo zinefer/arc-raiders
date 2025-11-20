@@ -229,6 +229,7 @@
     const [showModal, setShowModal] = useState(false);
     const [selectedQuests, setSelectedQuests] = useState([]);
     const [questsData, setQuestsData] = useState(null);
+    const [lastUpdateData, setLastUpdateData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [zoomLevel, setZoomLevel] = useState(1);
     const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
@@ -248,8 +249,12 @@
       function loadData() {
         return __async(this, null, function* () {
           try {
-            const quests = yield fetch("quests.json").then((r) => r.json());
+            const [quests, lastUpdate] = yield Promise.all([
+              fetch("quests.json").then((r) => r.json()),
+              fetch("last-update.json").then((r) => r.json()).catch(() => ({ lastUpdate: null }))
+            ]);
             setQuestsData(quests);
+            setLastUpdateData(lastUpdate);
             const savedConfig = localStorage.getItem("arcRaidersConfig");
             if (savedConfig) {
               try {
@@ -555,7 +560,7 @@
         onTouchEnd: handleTouchEnd
       },
       /* @__PURE__ */ React.createElement("div", { className: "mermaid-container", ref: mermaidContainerRef }),
-      /* @__PURE__ */ React.createElement("div", { className: "legend" }, /* @__PURE__ */ React.createElement("div", { className: "legend-title" }, "Traders"), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box shani" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Shani")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box tianwen" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Tian Wen")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box lance" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Lance")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box celeste" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Celeste")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box apollo" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Apollo")), /* @__PURE__ */ React.createElement("div", { className: "legend-separator" }), /* @__PURE__ */ React.createElement("div", { className: "legend-title" }, "Status"), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-outline completed" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Completed")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-outline active" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Active")))
+      /* @__PURE__ */ React.createElement("div", { className: "legend" }, /* @__PURE__ */ React.createElement("div", { className: "legend-title" }, "Traders"), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box shani" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Shani")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box tianwen" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Tian Wen")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box lance" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Lance")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box celeste" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Celeste")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-box apollo" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Apollo")), /* @__PURE__ */ React.createElement("div", { className: "legend-separator" }), /* @__PURE__ */ React.createElement("div", { className: "legend-title" }, "Status"), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-outline completed" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Completed")), /* @__PURE__ */ React.createElement("div", { className: "legend-item" }, /* @__PURE__ */ React.createElement("div", { className: "legend-outline active" }), /* @__PURE__ */ React.createElement("span", { style: { color: "var(--text-primary)" } }, "Active")), lastUpdateData && lastUpdateData.lastUpdate && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { className: "legend-separator" }), /* @__PURE__ */ React.createElement("div", { className: "legend-update" }, "Updated: ", new Date(lastUpdateData.lastUpdate).toLocaleString())))
     )), showModal && /* @__PURE__ */ React.createElement("div", { className: "modal-backdrop", onClick: () => setShowModal(false) }), showModal && /* @__PURE__ */ React.createElement("div", { className: "modal-content", onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React.createElement(
       QuestsModal,
       {

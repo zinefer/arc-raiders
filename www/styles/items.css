@@ -650,6 +650,14 @@ input:checked + .toggle-slider:before {
   margin-top: 20px;
 }
 
+/* Timestamp styles */
+.last-update-text {
+  font-size: 0.75em;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  display: block;
+}
+
 /* Mobile Responsive */
 @media (max-width: 1115px) {
   .header h1 {

@@ -646,20 +646,22 @@ function App() {
   const [equipmentData, setEquipmentData] = useState(null);
   const [lootData, setLootData] = useState(null);
   const [weaponModsData, setWeaponModsData] = useState(null);
+  const [lastUpdateData, setLastUpdateData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [projectsEnabled, setProjectsEnabled] = useState(false);
   // Load data on mount
   useEffect(() => {
     async function loadData() {
       try {
-        const [quests, projects, tables, weapons, equipment, loot, weaponMods] = await Promise.all([
+        const [quests, projects, tables, weapons, equipment, loot, weaponMods, lastUpdate] = await Promise.all([
           fetch('quests.json').then(r => r.json()),
           fetch('projects.json').then(r => r.json()),
           fetch('tables.json').then(r => r.json()),
           fetch('weapons.json').then(r => r.json()),
           fetch('equipment.json').then(r => r.json()),
           fetch('loot.json').then(r => r.json()),
-          fetch('weapon_modifications.json').then(r => r.json())
+          fetch('weapon_modifications.json').then(r => r.json()),
+          fetch('last-update.json').then(r => r.json()).catch(() => ({ lastUpdate: null }))
         ]);
         setQuestsData(quests);
         setProjectsData(projects);
@@ -668,6 +670,7 @@ function App() {
         setEquipmentData(equipment);
         setLootData(loot);
         setWeaponModsData(weaponMods);
+        setLastUpdateData(lastUpdate);
         // Initialize workshop levels to 0 (base level)
         const initialWorkshopLevels = {};
         Object.keys(tables).forEach(workshop => {
@@ -1037,6 +1040,11 @@ function App() {
         <div className="container">
           <p className="section-description">
             Search for any item to find out if you should keep or recycle/sell it
+            {lastUpdateData && lastUpdateData.lastUpdate && (
+              <span className="last-update-text">
+                Data last updated: {new Date(lastUpdateData.lastUpdate).toLocaleString()}
+              </span>
+            )}
           </p>
           {/* Configuration Boxes - Desktop Only */}
           <div className="config-boxes">
