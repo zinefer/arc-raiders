@@ -1,0 +1,19 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "This is a Javascript-based web crawler designed to extract and organize information from the Arc Raiders WIKI. The crawler focuses on gathering data about items (equipment and weapons), quests, and crafting recipes, structuring this information into easily accessible JSON formats.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "inquirer": "^12.11.0",
+    "jsdom": "^26.1.0",
+    "ora": "^8.2.0"
+  }
+}
